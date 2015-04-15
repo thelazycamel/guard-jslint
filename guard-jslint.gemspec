@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["hanscs1969@yahoo.co.uk"]
   spec.summary       = %q{Add Jslint to your Guardfile.}
   spec.description   = %q{Run your specs with Jslint watching your javascripts. BETA}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/thelazycamel/guard-jslint"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 0"
   spec.add_dependency 'guard-compat', '~> 1.1'
   spec.add_dependency 'jslint', '~> 1'
 end
