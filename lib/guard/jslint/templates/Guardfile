@@ -1,0 +1,4 @@
+guard 'jslint' do
+  watch(%r{^public/javascripts/.*\.js$})
+  watch('config/jslint.yml')
+end
